@@ -17,7 +17,13 @@
             //Struct always has the parameterless constructor even i made parameterizrd constructor
             //in Class the default parameterless constructor dissappears when i define any constructor
 
-            
+            //b)
+            //if i have object wuth large data like (strings, numbers), every time i copy it with struct it copies a full copy with all data
+            //but with class it only copies the reference so the program willnot be slow
+
+            //Struct doesnt support inheritance
+
+            //limited stack space if im using struct
 
         }
     }
