@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
             //Part 01 : Theoretical Questions
+
+            //Q1
             //a)
             //Struct is value type, so when we copy we got a complete different object, any changes on one of them doesnt affect on the other object
             //Class is reference type, so when we copy we got two object refers to the same object in heap, any changes on one object it affects on the other object
@@ -25,6 +27,12 @@
 
             //limited stack space if im using struct
 
+
+            //Q2
+            //a) Shipment is the parent class
+            //b) ExpressShipment is the child class 
+            //c) ExpressShipment inherits TrackingCode property
+            //d) Less code to maintain - using less memory - repeating code is not good in programming
         }
     }
 }
